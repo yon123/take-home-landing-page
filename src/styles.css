@@ -1,0 +1,250 @@
+@font-face {
+  font-family: "DIN Pro Condensed Regular";
+  font-style: normal;
+  font-weight: normal;
+  src: local("DIN Pro Condensed Regular"),
+    url("DINPro-Cond.woff") format("woff");
+}
+@font-face {
+  font-family: "DIN Pro Condensed Italic";
+  font-style: normal;
+  font-weight: normal;
+  src: local("DIN Pro Condensed Italic"),
+    url("DINPro-CondIta.woff") format("woff");
+}
+@font-face {
+  font-family: "DIN Pro";
+  font-style: normal;
+  font-weight: normal;
+  src: local("DIN Pro"), url("DINPro.woff") format("woff");
+}
+@font-face {
+  font-family: "DIN Pro Italic";
+  font-style: normal;
+  font-weight: normal;
+  src: local("DIN Pro Italic"), url("DINPro-Italic.woff") format("woff");
+}
+@font-face {
+  font-family: "DIN Pro Condensed Light";
+  font-style: normal;
+  font-weight: normal;
+  src: local("DIN Pro Condensed Light"),
+    url("DINPro-CondLight.woff") format("woff");
+}
+@font-face {
+  font-family: "DIN Pro Light";
+  font-style: normal;
+  font-weight: normal;
+  src: local("DIN Pro Light"), url("DINPro-Light.woff") format("woff");
+}
+@font-face {
+  font-family: "DIN Pro Condensed Light Italic";
+  font-style: normal;
+  font-weight: normal;
+  src: local("DIN Pro Condensed Light Italic"),
+    url("DINPro-CondLightIta.woff") format("woff");
+}
+@font-face {
+  font-family: "DIN Pro Light Italic";
+  font-style: normal;
+  font-weight: normal;
+  src: local("DIN Pro Light Italic"),
+    url("DINPro-LightItalic.woff") format("woff");
+}
+@font-face {
+  font-family: "DIN Pro Condensed Medium";
+  font-style: normal;
+  font-weight: normal;
+  src: local("DIN Pro Condensed Medium"),
+    url("DINPro-CondMedium.woff") format("woff");
+}
+@font-face {
+  font-family: "DIN Pro Medium";
+  font-style: normal;
+  font-weight: normal;
+  src: local("DIN Pro Medium"), url("DINPro-Medium.woff") format("woff");
+}
+@font-face {
+  font-family: "DIN Pro Condensed Medium Italic";
+  font-style: normal;
+  font-weight: normal;
+  src: local("DIN Pro Condensed Medium Italic"),
+    url("DINPro-CondMediIta.woff") format("woff");
+}
+@font-face {
+  font-family: "DIN Pro Medium Italic";
+  font-style: normal;
+  font-weight: normal;
+  src: local("DIN Pro Medium Italic"),
+    url("DINPro-MediumItalic.woff") format("woff");
+}
+@font-face {
+  font-family: "DIN Pro Bold";
+  font-style: normal;
+  font-weight: normal;
+  src: local("DIN Pro Bold"), url("DINPro-Bold.woff") format("woff");
+}
+@font-face {
+  font-family: "DIN Pro Condensed Bold";
+  font-style: normal;
+  font-weight: normal;
+  src: local("DIN Pro Condensed Bold"),
+    url("DINPro-CondBold.woff") format("woff");
+}
+@font-face {
+  font-family: "DIN Pro Bold Italic";
+  font-style: normal;
+  font-weight: normal;
+  src: local("DIN Pro Bold Italic"),
+    url("DINPro-BoldItalic.woff") format("woff");
+}
+@font-face {
+  font-family: "DIN Pro Condensed Bold Italic";
+  font-style: normal;
+  font-weight: normal;
+  src: local("DIN Pro Condensed Bold Italic"),
+    url("DINPro-CondBoldIta.woff") format("woff");
+}
+@font-face {
+  font-family: "DIN Pro Black";
+  font-style: normal;
+  font-weight: normal;
+  src: local("DIN Pro Black"), url("DINPro-Black.woff") format("woff");
+}
+@font-face {
+  font-family: "DIN Pro Condensed Black";
+  font-style: normal;
+  font-weight: normal;
+  src: local("DIN Pro Condensed Black"),
+    url("DINPro-CondBlack.woff") format("woff");
+}
+@font-face {
+  font-family: "DIN Pro Black Italic";
+  font-style: normal;
+  font-weight: normal;
+  src: local("DIN Pro Black Italic"),
+    url("DINPro-BlackItalic.woff") format("woff");
+}
+@font-face {
+  font-family: "DIN Pro Condensed Black Italic";
+  font-style: normal;
+  font-weight: normal;
+  src: local("DIN Pro Condensed Black Italic"),
+    url("DINPro-CondBlackIta.woff") format("woff");
+}
+
+nav {
+  position: relative;
+  background-color: #fff;
+  display: flex;
+  justify-content: space-between;
+}
+nav ul {
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin: 0;
+}
+nav a {
+  text-decoration: none;
+  color: #000;
+  padding: 15px;
+  font-family: "DINPro Medium";
+  font-size: 18px;
+}
+nav a:hover {
+  color: #ff5e48;
+}
+.logo a {
+  font-size: 25px;
+}
+nav ul {
+  list-style: none;
+}
+ul.drop-menu li {
+  display: none;
+  list-style: none;
+}
+li:hover > ul.drop-menu li {
+  display: flex;
+  flex: 1;
+}
+li > ul.drop-menu {
+  position: absolute;
+  display: flex;
+  left: 0;
+  top: 100%;
+  width: 100%;
+}
+
+ul.drop-menu li:hover {
+  display: block;
+}
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+img {
+  width: 100%;
+}
+
+.menu-block__top {
+  position: relative;
+}
+.menu-block__dek {
+  position: absolute;
+  top: 60%;
+  left: 15%;
+  bottom: 0;
+}
+
+.menu-block__section {
+  padding-top: 64px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 750px;
+  margin: auto;
+}
+
+.menu-block__section > .menu-block__option {
+  flex: 1 1 auto;
+  border-bottom: 2px #000 solid;
+  margin: 32px;
+}
+.menu-block__option {
+  position: relative;
+}
+.menu-block__num {
+  position: absolute;
+  top: -79px;
+  left: 38px;
+  right: 0;
+  font-size: 173px;
+  font-family: Dim pro;
+  color: rgba(255, 99, 71, 0.8);
+}
+
+.btn {
+  background: #ff5e48;
+  color: #fff;
+  padding: 15px 38px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.u-center {
+  text-align: center;
+}
+
+.u-header-margin--b {
+  margin-bottom: 32px;
+}
+.u-margin-t--xxl {
+  margin-top: 64px;
+}

@@ -1,0 +1,8 @@
+**** Landing page******
+* utilized markup with react framework
+* Was only able to use make the skeleton
+* Divided features within different components for conventional purposes
+* Potentially wanted to make it responsive for tablet and mobile 
+* For the carousel section image I was going to use slick carousel since the plugin is light and conatins features that could be useful for how we want to present it.
+* wanted to add accessibility.
+*in this typical situation I would work with the designers are go over how things execute for user cases.
